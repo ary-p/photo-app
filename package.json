@@ -1,7 +1,7 @@
 {
   "name": "photo-app",
   "version": "0.1.0",
-  "homepage": "https://ary-p.github.io/cs378-final-project",
+  "homepage": "https://ary-p.github.io/photo-app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/ary-p/cs378-final-project.git",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
